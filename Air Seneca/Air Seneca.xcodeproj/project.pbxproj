@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36C5DCC818989F2400ABCE95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C5DCC718989F2400ABCE95 /* Foundation.framework */; };
+		36C5DCCA18989F2400ABCE95 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C5DCC918989F2400ABCE95 /* CoreGraphics.framework */; };
+		36C5DCCC18989F2400ABCE95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C5DCCB18989F2400ABCE95 /* UIKit.framework */; };
+		36C5DCD218989F2400ABCE95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36C5DCD018989F2400ABCE95 /* InfoPlist.strings */; };
+		36C5DCD418989F2400ABCE95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C5DCD318989F2400ABCE95 /* main.m */; };
+		36C5DCD818989F2400ABCE95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C5DCD718989F2400ABCE95 /* AppDelegate.m */; };
+		36C5DCDB18989F2400ABCE95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C5DCD918989F2400ABCE95 /* Main.storyboard */; };
+		36C5DCDE18989F2400ABCE95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C5DCDD18989F2400ABCE95 /* ViewController.m */; };
+		36C5DCE018989F2400ABCE95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36C5DCDF18989F2400ABCE95 /* Images.xcassets */; };
+		36C5DCE718989F2400ABCE95 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C5DCE618989F2400ABCE95 /* XCTest.framework */; };
+		36C5DCE818989F2400ABCE95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C5DCC718989F2400ABCE95 /* Foundation.framework */; };
+		36C5DCE918989F2400ABCE95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C5DCCB18989F2400ABCE95 /* UIKit.framework */; };
+		36C5DCF118989F2400ABCE95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36C5DCEF18989F2400ABCE95 /* InfoPlist.strings */; };
+		36C5DCF318989F2400ABCE95 /* Air_SenecaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C5DCF218989F2400ABCE95 /* Air_SenecaTests.m */; };
+		36C5DCFE1898ACDF00ABCE95 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C5DCFD1898ACDF00ABCE95 /* Model.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36C5DCEA18989F2400ABCE95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36C5DCBC18989F2400ABCE95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36C5DCC318989F2400ABCE95;
+			remoteInfo = "Air Seneca";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36C5DCC418989F2400ABCE95 /* Air Seneca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Air Seneca.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C5DCC718989F2400ABCE95 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		36C5DCC918989F2400ABCE95 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		36C5DCCB18989F2400ABCE95 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		36C5DCCF18989F2400ABCE95 /* Air Seneca-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Air Seneca-Info.plist"; sourceTree = "<group>"; };
+		36C5DCD118989F2400ABCE95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36C5DCD318989F2400ABCE95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36C5DCD518989F2400ABCE95 /* Air Seneca-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Air Seneca-Prefix.pch"; sourceTree = "<group>"; };
+		36C5DCD618989F2400ABCE95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36C5DCD718989F2400ABCE95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36C5DCDA18989F2400ABCE95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36C5DCDC18989F2400ABCE95 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		36C5DCDD18989F2400ABCE95 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		36C5DCDF18989F2400ABCE95 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		36C5DCE518989F2400ABCE95 /* Air SenecaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Air SenecaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C5DCE618989F2400ABCE95 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		36C5DCEE18989F2400ABCE95 /* Air SenecaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Air SenecaTests-Info.plist"; sourceTree = "<group>"; };
+		36C5DCF018989F2400ABCE95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36C5DCF218989F2400ABCE95 /* Air_SenecaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Air_SenecaTests.m; sourceTree = "<group>"; };
+		36C5DCFC1898ACDF00ABCE95 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		36C5DCFD1898ACDF00ABCE95 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36C5DCC118989F2400ABCE95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C5DCCA18989F2400ABCE95 /* CoreGraphics.framework in Frameworks */,
+				36C5DCCC18989F2400ABCE95 /* UIKit.framework in Frameworks */,
+				36C5DCC818989F2400ABCE95 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C5DCE218989F2400ABCE95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C5DCE718989F2400ABCE95 /* XCTest.framework in Frameworks */,
+				36C5DCE918989F2400ABCE95 /* UIKit.framework in Frameworks */,
+				36C5DCE818989F2400ABCE95 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36C5DCBB18989F2400ABCE95 = {
+			isa = PBXGroup;
+			children = (
+				36C5DCCD18989F2400ABCE95 /* Air Seneca */,
+				36C5DCEC18989F2400ABCE95 /* Air SenecaTests */,
+				36C5DCC618989F2400ABCE95 /* Frameworks */,
+				36C5DCC518989F2400ABCE95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36C5DCC518989F2400ABCE95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36C5DCC418989F2400ABCE95 /* Air Seneca.app */,
+				36C5DCE518989F2400ABCE95 /* Air SenecaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36C5DCC618989F2400ABCE95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36C5DCC718989F2400ABCE95 /* Foundation.framework */,
+				36C5DCC918989F2400ABCE95 /* CoreGraphics.framework */,
+				36C5DCCB18989F2400ABCE95 /* UIKit.framework */,
+				36C5DCE618989F2400ABCE95 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36C5DCCD18989F2400ABCE95 /* Air Seneca */ = {
+			isa = PBXGroup;
+			children = (
+				36C5DCD618989F2400ABCE95 /* AppDelegate.h */,
+				36C5DCD718989F2400ABCE95 /* AppDelegate.m */,
+				36C5DCD918989F2400ABCE95 /* Main.storyboard */,
+				36C5DCDC18989F2400ABCE95 /* ViewController.h */,
+				36C5DCDD18989F2400ABCE95 /* ViewController.m */,
+				36C5DCDF18989F2400ABCE95 /* Images.xcassets */,
+				36C5DCCE18989F2400ABCE95 /* Supporting Files */,
+				36C5DCFC1898ACDF00ABCE95 /* Model.h */,
+				36C5DCFD1898ACDF00ABCE95 /* Model.m */,
+			);
+			path = "Air Seneca";
+			sourceTree = "<group>";
+		};
+		36C5DCCE18989F2400ABCE95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36C5DCCF18989F2400ABCE95 /* Air Seneca-Info.plist */,
+				36C5DCD018989F2400ABCE95 /* InfoPlist.strings */,
+				36C5DCD318989F2400ABCE95 /* main.m */,
+				36C5DCD518989F2400ABCE95 /* Air Seneca-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36C5DCEC18989F2400ABCE95 /* Air SenecaTests */ = {
+			isa = PBXGroup;
+			children = (
+				36C5DCF218989F2400ABCE95 /* Air_SenecaTests.m */,
+				36C5DCED18989F2400ABCE95 /* Supporting Files */,
+			);
+			path = "Air SenecaTests";
+			sourceTree = "<group>";
+		};
+		36C5DCED18989F2400ABCE95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36C5DCEE18989F2400ABCE95 /* Air SenecaTests-Info.plist */,
+				36C5DCEF18989F2400ABCE95 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36C5DCC318989F2400ABCE95 /* Air Seneca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36C5DCF618989F2400ABCE95 /* Build configuration list for PBXNativeTarget "Air Seneca" */;
+			buildPhases = (
+				36C5DCC018989F2400ABCE95 /* Sources */,
+				36C5DCC118989F2400ABCE95 /* Frameworks */,
+				36C5DCC218989F2400ABCE95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Air Seneca";
+			productName = "Air Seneca";
+			productReference = 36C5DCC418989F2400ABCE95 /* Air Seneca.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36C5DCE418989F2400ABCE95 /* Air SenecaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36C5DCF918989F2400ABCE95 /* Build configuration list for PBXNativeTarget "Air SenecaTests" */;
+			buildPhases = (
+				36C5DCE118989F2400ABCE95 /* Sources */,
+				36C5DCE218989F2400ABCE95 /* Frameworks */,
+				36C5DCE318989F2400ABCE95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36C5DCEB18989F2400ABCE95 /* PBXTargetDependency */,
+			);
+			name = "Air SenecaTests";
+			productName = "Air SenecaTests";
+			productReference = 36C5DCE518989F2400ABCE95 /* Air SenecaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36C5DCBC18989F2400ABCE95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "William Wong";
+				TargetAttributes = {
+					36C5DCE418989F2400ABCE95 = {
+						TestTargetID = 36C5DCC318989F2400ABCE95;
+					};
+				};
+			};
+			buildConfigurationList = 36C5DCBF18989F2400ABCE95 /* Build configuration list for PBXProject "Air Seneca" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36C5DCBB18989F2400ABCE95;
+			productRefGroup = 36C5DCC518989F2400ABCE95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36C5DCC318989F2400ABCE95 /* Air Seneca */,
+				36C5DCE418989F2400ABCE95 /* Air SenecaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36C5DCC218989F2400ABCE95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C5DCE018989F2400ABCE95 /* Images.xcassets in Resources */,
+				36C5DCD218989F2400ABCE95 /* InfoPlist.strings in Resources */,
+				36C5DCDB18989F2400ABCE95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C5DCE318989F2400ABCE95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C5DCF118989F2400ABCE95 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36C5DCC018989F2400ABCE95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C5DCDE18989F2400ABCE95 /* ViewController.m in Sources */,
+				36C5DCD818989F2400ABCE95 /* AppDelegate.m in Sources */,
+				36C5DCD418989F2400ABCE95 /* main.m in Sources */,
+				36C5DCFE1898ACDF00ABCE95 /* Model.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C5DCE118989F2400ABCE95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C5DCF318989F2400ABCE95 /* Air_SenecaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36C5DCEB18989F2400ABCE95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36C5DCC318989F2400ABCE95 /* Air Seneca */;
+			targetProxy = 36C5DCEA18989F2400ABCE95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36C5DCD018989F2400ABCE95 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36C5DCD118989F2400ABCE95 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		36C5DCD918989F2400ABCE95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36C5DCDA18989F2400ABCE95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36C5DCEF18989F2400ABCE95 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36C5DCF018989F2400ABCE95 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36C5DCF418989F2400ABCE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36C5DCF518989F2400ABCE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36C5DCF718989F2400ABCE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Air Seneca/Air Seneca-Prefix.pch";
+				INFOPLIST_FILE = "Air Seneca/Air Seneca-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		36C5DCF818989F2400ABCE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Air Seneca/Air Seneca-Prefix.pch";
+				INFOPLIST_FILE = "Air Seneca/Air Seneca-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		36C5DCFA18989F2400ABCE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Air Seneca.app/Air Seneca";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Air Seneca/Air Seneca-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Air SenecaTests/Air SenecaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		36C5DCFB18989F2400ABCE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Air Seneca.app/Air Seneca";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Air Seneca/Air Seneca-Prefix.pch";
+				INFOPLIST_FILE = "Air SenecaTests/Air SenecaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36C5DCBF18989F2400ABCE95 /* Build configuration list for PBXProject "Air Seneca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C5DCF418989F2400ABCE95 /* Debug */,
+				36C5DCF518989F2400ABCE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36C5DCF618989F2400ABCE95 /* Build configuration list for PBXNativeTarget "Air Seneca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C5DCF718989F2400ABCE95 /* Debug */,
+				36C5DCF818989F2400ABCE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36C5DCF918989F2400ABCE95 /* Build configuration list for PBXNativeTarget "Air SenecaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C5DCFA18989F2400ABCE95 /* Debug */,
+				36C5DCFB18989F2400ABCE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36C5DCBC18989F2400ABCE95 /* Project object */;
+}

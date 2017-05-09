@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="12F45" minimumToolsVersion="Xcode 4.1" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Equipment" representedClassName="Equipment" isAbstract="YES" syncable="YES">
+        <attribute name="brand" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="colour" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="manufacturer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="modelCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photo" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="wsObjectId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="EquipmentCategory" representedClassName="EquipmentCategory" syncable="YES">
+        <attribute name="displayIcon" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="displayName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="displayOrder" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="nameOfEntity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wsObjectId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Gloves" representedClassName="Gloves" parentEntity="Equipment" syncable="YES">
+        <attribute name="length" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="players" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Player" inverseName="gloves" inverseEntity="Player" syncable="YES"/>
+    </entity>
+    <entity name="Helmet" representedClassName="Helmet" parentEntity="Equipment" syncable="YES">
+        <attribute name="chinStrap" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="faceProtector" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="players" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Player" inverseName="helmet" inverseEntity="Player" syncable="YES"/>
+    </entity>
+    <entity name="Player" representedClassName="Player" syncable="YES">
+        <attribute name="birthDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="givenNames" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="handedness" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="height" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="jerseyNumber" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photoHeadshot" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="playingStatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="position" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="wsObjectId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="gloves" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Gloves" inverseName="players" inverseEntity="Gloves" syncable="YES"/>
+        <relationship name="helmet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Helmet" inverseName="players" inverseEntity="Helmet" syncable="YES"/>
+        <relationship name="skateBoot" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SkateBoot" inverseName="players" inverseEntity="SkateBoot" syncable="YES"/>
+        <relationship name="skateHolder" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SkateHolder" inverseName="players" inverseEntity="SkateHolder" syncable="YES"/>
+        <relationship name="skateRunner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SkateRunner" inverseName="players" inverseEntity="SkateRunner" syncable="YES"/>
+        <relationship name="stick" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Stick" inverseName="players" inverseEntity="Stick" syncable="YES"/>
+    </entity>
+    <entity name="SkateBoot" representedClassName="SkateBoot" parentEntity="Equipment" syncable="YES">
+        <attribute name="size" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="stiffness" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="width" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="players" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Player" inverseName="skateBoot" inverseEntity="Player" syncable="YES"/>
+    </entity>
+    <entity name="SkateHolder" representedClassName="SkateHolder" parentEntity="Equipment" syncable="YES">
+        <attribute name="size" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="players" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Player" inverseName="skateHolder" inverseEntity="Player" syncable="YES"/>
+    </entity>
+    <entity name="SkateRunner" representedClassName="SkateRunner" parentEntity="Equipment" syncable="YES">
+        <attribute name="contour" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="hollow" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="pitch" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="players" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Player" inverseName="skateRunner" inverseEntity="Player" syncable="YES"/>
+    </entity>
+    <entity name="Stick" representedClassName="Stick" parentEntity="Equipment" syncable="YES">
+        <attribute name="curve" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="flex" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="leftRight" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pattern" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="players" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Player" inverseName="stick" inverseEntity="Player" syncable="YES"/>
+    </entity>
+    <entity name="Team" representedClassName="Team" syncable="YES">
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="loginTimestamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="loginToken" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nameofEM" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teamName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wsObjectId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Team" positionX="-387" positionY="-57" width="128" height="165"/>
+        <element name="Player" positionX="189" positionY="123" width="128" height="300"/>
+        <element name="EquipmentCategory" positionX="-387" positionY="126" width="128" height="120"/>
+        <element name="Equipment" positionX="-387" positionY="270" width="128" height="150"/>
+        <element name="Helmet" positionX="-117" positionY="531" width="128" height="105"/>
+        <element name="Gloves" positionX="-119" positionY="432" width="128" height="90"/>
+        <element name="Stick" positionX="-117" positionY="306" width="128" height="120"/>
+        <element name="SkateBoot" positionX="-117" positionY="189" width="128" height="105"/>
+        <element name="SkateHolder" positionX="-117" positionY="-21" width="128" height="75"/>
+        <element name="SkateRunner" positionX="-117" positionY="63" width="128" height="120"/>
+    </elements>
+</model>

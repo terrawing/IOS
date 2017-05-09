@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		361CD0C318D621FB00EC2365 /* SkateHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 361CD0C218D621FB00EC2365 /* SkateHolder.m */; };
+		361CD0C618D621FC00EC2365 /* Equipment.m in Sources */ = {isa = PBXBuildFile; fileRef = 361CD0C518D621FC00EC2365 /* Equipment.m */; };
+		361CD0C918D621FC00EC2365 /* EquipmentCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 361CD0C818D621FC00EC2365 /* EquipmentCategory.m */; };
+		361CD0CC18D621FC00EC2365 /* SkateBoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 361CD0CB18D621FC00EC2365 /* SkateBoot.m */; };
+		361CD0CF18D621FC00EC2365 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 361CD0CE18D621FC00EC2365 /* Player.m */; };
+		361CD0D218D621FC00EC2365 /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = 361CD0D118D621FC00EC2365 /* Team.m */; };
+		361CD0D518D621FC00EC2365 /* Helmet.m in Sources */ = {isa = PBXBuildFile; fileRef = 361CD0D418D621FC00EC2365 /* Helmet.m */; };
+		361CD0D818D621FC00EC2365 /* SkateRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 361CD0D718D621FC00EC2365 /* SkateRunner.m */; };
+		361CD0DB18D621FC00EC2365 /* Gloves.m in Sources */ = {isa = PBXBuildFile; fileRef = 361CD0DA18D621FC00EC2365 /* Gloves.m */; };
+		361CD0DE18D621FC00EC2365 /* Stick.m in Sources */ = {isa = PBXBuildFile; fileRef = 361CD0DD18D621FC00EC2365 /* Stick.m */; };
+		361CD0E118D622AD00EC2365 /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 361CD0E018D622AD00EC2365 /* Login.m */; };
+		36574DE518E7901B00EAE5C9 /* AddHelmet.m in Sources */ = {isa = PBXBuildFile; fileRef = 36574DE418E7901B00EAE5C9 /* AddHelmet.m */; };
+		368739B518E8EFAE00C7E2CE /* HelmetDetailNetworkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 368739B418E8EFAE00C7E2CE /* HelmetDetailNetworkView.m */; };
+		368CD31D18F36C0500B508B3 /* AddGloves.m in Sources */ = {isa = PBXBuildFile; fileRef = 368CD31C18F36C0500B508B3 /* AddGloves.m */; };
+		368CD32018F36D2F00B508B3 /* GlovesDetailNetworkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 368CD31F18F36D2F00B508B3 /* GlovesDetailNetworkView.m */; };
+		369DEF5C18E66C680027500C /* HelmetList.m in Sources */ = {isa = PBXBuildFile; fileRef = 369DEF5B18E66C680027500C /* HelmetList.m */; };
+		36BE4B3E18D65F9400903608 /* UIImageResize.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BE4B3D18D65F9400903608 /* UIImageResize.m */; };
+		36BE4B4418D663B700903608 /* CFranson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36BE4B3F18D663B700903608 /* CFranson.jpg */; };
+		36BE4B4518D663B700903608 /* DClarkson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36BE4B4018D663B700903608 /* DClarkson.jpg */; };
+		36BE4B4618D663B700903608 /* JBernier.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36BE4B4118D663B700903608 /* JBernier.jpg */; };
+		36BE4B4718D663B700903608 /* JGardiner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36BE4B4218D663B700903608 /* JGardiner.jpg */; };
+		36BE4B4818D663B700903608 /* PKessel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36BE4B4318D663B700903608 /* PKessel.jpg */; };
+		36BE4B4E18D694CB00903608 /* glovesCat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36BE4B4A18D694CB00903608 /* glovesCat.jpg */; };
+		36BE4B4F18D694CB00903608 /* helmetCat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36BE4B4B18D694CB00903608 /* helmetCat.jpg */; };
+		36BE4B5018D694CB00903608 /* skatesCat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36BE4B4C18D694CB00903608 /* skatesCat.jpg */; };
+		36BE4B5118D694CB00903608 /* sticksCat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36BE4B4D18D694CB00903608 /* sticksCat.jpg */; };
+		36BE4B5418D6980600903608 /* EquipmentCategoryList.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BE4B5318D6980600903608 /* EquipmentCategoryList.m */; };
+		36CA94A218F4CA5500A379D2 /* StickList.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CA94A118F4CA5500A379D2 /* StickList.m */; };
+		36CA94A518F4CA7300A379D2 /* StickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CA94A418F4CA7300A379D2 /* StickView.m */; };
+		36CA94A818F4CAD400A379D2 /* AddStick.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CA94A718F4CAD400A379D2 /* AddStick.m */; };
+		36CA94AB18F4CAF400A379D2 /* StickDetailNetworkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CA94AA18F4CAF400A379D2 /* StickDetailNetworkView.m */; };
+		36DDAD4818F5B6790026B012 /* SkatesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DDAD4718F5B6790026B012 /* SkatesView.m */; };
+		36DDAD4B18F5B6950026B012 /* SkatesList.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DDAD4A18F5B6950026B012 /* SkatesList.m */; };
+		36DDAD4E18F5B6A80026B012 /* AddSkates.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DDAD4D18F5B6A80026B012 /* AddSkates.m */; };
+		36DDAD5118F5B6CF0026B012 /* SkatesDetailNetworkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DDAD5018F5B6CF0026B012 /* SkatesDetailNetworkView.m */; };
+		36DDAD5418F638F70026B012 /* Wolfpack.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36DDAD5318F638F70026B012 /* Wolfpack.gif */; };
+		36E14D3A18D932CA0030ACB9 /* JMcClement.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36E14D3918D932CA0030ACB9 /* JMcClement.jpg */; };
+		36E14D3D18D9333C0030ACB9 /* skateHolderCat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36E14D3B18D9333C0030ACB9 /* skateHolderCat.jpg */; };
+		36E14D3E18D9333C0030ACB9 /* skateRunnerCat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36E14D3C18D9333C0030ACB9 /* skateRunnerCat.jpg */; };
+		36EC261118E3A3B6008E1315 /* AddPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EC261018E3A3B6008E1315 /* AddPlayer.m */; };
+		36EC261718E3B2D7008E1315 /* HelmetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EC261618E3B2D7008E1315 /* HelmetView.m */; };
+		B450201718F2E66400F8F803 /* GlovesList.m in Sources */ = {isa = PBXBuildFile; fileRef = B450201618F2E66400F8F803 /* GlovesList.m */; };
+		B47F2F7D18F2FB41008B0CC6 /* GlovesView.m in Sources */ = {isa = PBXBuildFile; fileRef = B47F2F7C18F2FB41008B0CC6 /* GlovesView.m */; };
+		D01A0A7418D38B5800A63315 /* WebServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D01A0A7218D38B5800A63315 /* WebServiceRequest.m */; };
+		D01A0A7718D3934600A63315 /* AddEditPattern.txt in Resources */ = {isa = PBXBuildFile; fileRef = D01A0A7618D3934600A63315 /* AddEditPattern.txt */; };
+		D01A0A7918D3954E00A63315 /* EntityListForCollectionFromNetwork.txt in Resources */ = {isa = PBXBuildFile; fileRef = D01A0A7818D3954E00A63315 /* EntityListForCollectionFromNetwork.txt */; };
+		D0304BDB161F39EA00926A5E /* ImageToDataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = D0304BDA161F39EA00926A5E /* ImageToDataTransformer.m */; };
+		D0304BE7161F40B000926A5E /* PlayerList.m in Sources */ = {isa = PBXBuildFile; fileRef = D0304BE6161F40B000926A5E /* PlayerList.m */; };
+		D0304BEA161F40CA00926A5E /* PlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0304BE9161F40CA00926A5E /* PlayerView.m */; };
+		D04033571801FA5100A00C9D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D04033541801FA5100A00C9D /* Default-568h@2x.png */; };
+		D04033581801FA5100A00C9D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D04033551801FA5100A00C9D /* Default.png */; };
+		D04033591801FA5100A00C9D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D04033561801FA5100A00C9D /* Default@2x.png */; };
+		D048108F159910AA003FF529 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D048108E159910AA003FF529 /* UIKit.framework */; };
+		D0481091159910AA003FF529 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0481090159910AA003FF529 /* Foundation.framework */; };
+		D0481093159910AA003FF529 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0481092159910AA003FF529 /* CoreGraphics.framework */; };
+		D0481099159910AA003FF529 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0481097159910AA003FF529 /* InfoPlist.strings */; };
+		D048109B159910AA003FF529 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D048109A159910AA003FF529 /* main.m */; };
+		D048109F159910AA003FF529 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D048109E159910AA003FF529 /* AppDelegate.m */; };
+		D04810A6159910B9003FF529 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04810A5159910B9003FF529 /* CoreData.framework */; };
+		D04810AA15991168003FF529 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04810A915991168003FF529 /* Main.storyboard */; };
+		D04810AF1599CAE9003FF529 /* CDStack.m in Sources */ = {isa = PBXBuildFile; fileRef = D04810AC1599CAE9003FF529 /* CDStack.m */; };
+		D04810B01599CAE9003FF529 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = D04810AE1599CAE9003FF529 /* Model.m */; };
+		D04810B31599CB65003FF529 /* ObjectModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D04810B11599CB65003FF529 /* ObjectModel.xcdatamodeld */; };
+		D04810B61599CD72003FF529 /* StoreInitializer.m in Sources */ = {isa = PBXBuildFile; fileRef = D04810B51599CD72003FF529 /* StoreInitializer.m */; };
+		D0919CCD18A833350079C091 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D0919CCC18A833350079C091 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		361CD0C118D621FB00EC2365 /* SkateHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkateHolder.h; sourceTree = "<group>"; };
+		361CD0C218D621FB00EC2365 /* SkateHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkateHolder.m; sourceTree = "<group>"; };
+		361CD0C418D621FC00EC2365 /* Equipment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Equipment.h; sourceTree = "<group>"; };
+		361CD0C518D621FC00EC2365 /* Equipment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Equipment.m; sourceTree = "<group>"; };
+		361CD0C718D621FC00EC2365 /* EquipmentCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquipmentCategory.h; sourceTree = "<group>"; };
+		361CD0C818D621FC00EC2365 /* EquipmentCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquipmentCategory.m; sourceTree = "<group>"; };
+		361CD0CA18D621FC00EC2365 /* SkateBoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkateBoot.h; sourceTree = "<group>"; };
+		361CD0CB18D621FC00EC2365 /* SkateBoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkateBoot.m; sourceTree = "<group>"; };
+		361CD0CD18D621FC00EC2365 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		361CD0CE18D621FC00EC2365 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		361CD0D018D621FC00EC2365 /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Team.h; sourceTree = "<group>"; };
+		361CD0D118D621FC00EC2365 /* Team.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Team.m; sourceTree = "<group>"; };
+		361CD0D318D621FC00EC2365 /* Helmet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helmet.h; sourceTree = "<group>"; };
+		361CD0D418D621FC00EC2365 /* Helmet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helmet.m; sourceTree = "<group>"; };
+		361CD0D618D621FC00EC2365 /* SkateRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkateRunner.h; sourceTree = "<group>"; };
+		361CD0D718D621FC00EC2365 /* SkateRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkateRunner.m; sourceTree = "<group>"; };
+		361CD0D918D621FC00EC2365 /* Gloves.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gloves.h; sourceTree = "<group>"; };
+		361CD0DA18D621FC00EC2365 /* Gloves.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gloves.m; sourceTree = "<group>"; };
+		361CD0DC18D621FC00EC2365 /* Stick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stick.h; sourceTree = "<group>"; };
+		361CD0DD18D621FC00EC2365 /* Stick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stick.m; sourceTree = "<group>"; };
+		361CD0DF18D622AD00EC2365 /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
+		361CD0E018D622AD00EC2365 /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
+		36574DE318E7901B00EAE5C9 /* AddHelmet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddHelmet.h; sourceTree = "<group>"; };
+		36574DE418E7901B00EAE5C9 /* AddHelmet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddHelmet.m; sourceTree = "<group>"; };
+		368739B318E8EFAE00C7E2CE /* HelmetDetailNetworkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelmetDetailNetworkView.h; sourceTree = "<group>"; };
+		368739B418E8EFAE00C7E2CE /* HelmetDetailNetworkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelmetDetailNetworkView.m; sourceTree = "<group>"; };
+		368CD31B18F36C0500B508B3 /* AddGloves.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddGloves.h; sourceTree = "<group>"; };
+		368CD31C18F36C0500B508B3 /* AddGloves.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddGloves.m; sourceTree = "<group>"; };
+		368CD31E18F36D2F00B508B3 /* GlovesDetailNetworkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlovesDetailNetworkView.h; sourceTree = "<group>"; };
+		368CD31F18F36D2F00B508B3 /* GlovesDetailNetworkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlovesDetailNetworkView.m; sourceTree = "<group>"; };
+		369DEF5A18E66C680027500C /* HelmetList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelmetList.h; sourceTree = "<group>"; };
+		369DEF5B18E66C680027500C /* HelmetList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelmetList.m; sourceTree = "<group>"; };
+		36BE4B3C18D65F9400903608 /* UIImageResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageResize.h; sourceTree = "<group>"; };
+		36BE4B3D18D65F9400903608 /* UIImageResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageResize.m; sourceTree = "<group>"; };
+		36BE4B3F18D663B700903608 /* CFranson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CFranson.jpg; sourceTree = "<group>"; };
+		36BE4B4018D663B700903608 /* DClarkson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DClarkson.jpg; sourceTree = "<group>"; };
+		36BE4B4118D663B700903608 /* JBernier.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JBernier.jpg; sourceTree = "<group>"; };
+		36BE4B4218D663B700903608 /* JGardiner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JGardiner.jpg; sourceTree = "<group>"; };
+		36BE4B4318D663B700903608 /* PKessel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PKessel.jpg; sourceTree = "<group>"; };
+		36BE4B4A18D694CB00903608 /* glovesCat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = glovesCat.jpg; sourceTree = "<group>"; };
+		36BE4B4B18D694CB00903608 /* helmetCat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = helmetCat.jpg; sourceTree = "<group>"; };
+		36BE4B4C18D694CB00903608 /* skatesCat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skatesCat.jpg; sourceTree = "<group>"; };
+		36BE4B4D18D694CB00903608 /* sticksCat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sticksCat.jpg; sourceTree = "<group>"; };
+		36BE4B5218D6980600903608 /* EquipmentCategoryList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquipmentCategoryList.h; sourceTree = "<group>"; };
+		36BE4B5318D6980600903608 /* EquipmentCategoryList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquipmentCategoryList.m; sourceTree = "<group>"; };
+		36CA94A018F4CA5500A379D2 /* StickList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickList.h; sourceTree = "<group>"; };
+		36CA94A118F4CA5500A379D2 /* StickList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickList.m; sourceTree = "<group>"; };
+		36CA94A318F4CA7300A379D2 /* StickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickView.h; sourceTree = "<group>"; };
+		36CA94A418F4CA7300A379D2 /* StickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickView.m; sourceTree = "<group>"; };
+		36CA94A618F4CAD400A379D2 /* AddStick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddStick.h; sourceTree = "<group>"; };
+		36CA94A718F4CAD400A379D2 /* AddStick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddStick.m; sourceTree = "<group>"; };
+		36CA94A918F4CAF400A379D2 /* StickDetailNetworkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickDetailNetworkView.h; sourceTree = "<group>"; };
+		36CA94AA18F4CAF400A379D2 /* StickDetailNetworkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickDetailNetworkView.m; sourceTree = "<group>"; };
+		36DDAD4618F5B6790026B012 /* SkatesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkatesView.h; sourceTree = "<group>"; };
+		36DDAD4718F5B6790026B012 /* SkatesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SkatesView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		36DDAD4918F5B6950026B012 /* SkatesList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkatesList.h; sourceTree = "<group>"; };
+		36DDAD4A18F5B6950026B012 /* SkatesList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkatesList.m; sourceTree = "<group>"; };
+		36DDAD4C18F5B6A80026B012 /* AddSkates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSkates.h; sourceTree = "<group>"; };
+		36DDAD4D18F5B6A80026B012 /* AddSkates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSkates.m; sourceTree = "<group>"; };
+		36DDAD4F18F5B6CF0026B012 /* SkatesDetailNetworkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkatesDetailNetworkView.h; sourceTree = "<group>"; };
+		36DDAD5018F5B6CF0026B012 /* SkatesDetailNetworkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkatesDetailNetworkView.m; sourceTree = "<group>"; };
+		36DDAD5318F638F70026B012 /* Wolfpack.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Wolfpack.gif; sourceTree = "<group>"; };
+		36E14D3918D932CA0030ACB9 /* JMcClement.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JMcClement.jpg; sourceTree = "<group>"; };
+		36E14D3B18D9333C0030ACB9 /* skateHolderCat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skateHolderCat.jpg; sourceTree = "<group>"; };
+		36E14D3C18D9333C0030ACB9 /* skateRunnerCat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skateRunnerCat.jpg; sourceTree = "<group>"; };
+		36EC260F18E3A3B6008E1315 /* AddPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPlayer.h; sourceTree = "<group>"; };
+		36EC261018E3A3B6008E1315 /* AddPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPlayer.m; sourceTree = "<group>"; };
+		36EC261518E3B2D7008E1315 /* HelmetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelmetView.h; sourceTree = "<group>"; };
+		36EC261618E3B2D7008E1315 /* HelmetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelmetView.m; sourceTree = "<group>"; };
+		B450201518F2E66400F8F803 /* GlovesList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlovesList.h; sourceTree = "<group>"; };
+		B450201618F2E66400F8F803 /* GlovesList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlovesList.m; sourceTree = "<group>"; };
+		B47F2F7B18F2FB41008B0CC6 /* GlovesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlovesView.h; sourceTree = "<group>"; };
+		B47F2F7C18F2FB41008B0CC6 /* GlovesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlovesView.m; sourceTree = "<group>"; };
+		D01A0A7218D38B5800A63315 /* WebServiceRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServiceRequest.m; sourceTree = "<group>"; };
+		D01A0A7318D38B5800A63315 /* WebServiceRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceRequest.h; sourceTree = "<group>"; };
+		D01A0A7618D3934600A63315 /* AddEditPattern.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AddEditPattern.txt; sourceTree = "<group>"; };
+		D01A0A7818D3954E00A63315 /* EntityListForCollectionFromNetwork.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EntityListForCollectionFromNetwork.txt; sourceTree = "<group>"; };
+		D0304BD9161F39EA00926A5E /* ImageToDataTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageToDataTransformer.h; sourceTree = "<group>"; };
+		D0304BDA161F39EA00926A5E /* ImageToDataTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageToDataTransformer.m; sourceTree = "<group>"; };
+		D0304BE5161F40B000926A5E /* PlayerList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerList.h; sourceTree = "<group>"; };
+		D0304BE6161F40B000926A5E /* PlayerList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerList.m; sourceTree = "<group>"; };
+		D0304BE8161F40CA00926A5E /* PlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerView.h; sourceTree = "<group>"; };
+		D0304BE9161F40CA00926A5E /* PlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerView.m; sourceTree = "<group>"; };
+		D04033541801FA5100A00C9D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D04033551801FA5100A00C9D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D04033561801FA5100A00C9D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D048108A159910AA003FF529 /* Equip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Equip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D048108E159910AA003FF529 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D0481090159910AA003FF529 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0481092159910AA003FF529 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0481096159910AA003FF529 /* Equip-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Equip-Info.plist"; sourceTree = "<group>"; };
+		D0481098159910AA003FF529 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D048109A159910AA003FF529 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D048109C159910AA003FF529 /* Equip-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Equip-Prefix.pch"; sourceTree = "<group>"; };
+		D048109D159910AA003FF529 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D048109E159910AA003FF529 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D04810A5159910B9003FF529 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D04810A915991168003FF529 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D04810AB1599CAE9003FF529 /* CDStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDStack.h; sourceTree = "<group>"; };
+		D04810AC1599CAE9003FF529 /* CDStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDStack.m; sourceTree = "<group>"; };
+		D04810AD1599CAE9003FF529 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Model.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		D04810AE1599CAE9003FF529 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Model.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D04810B21599CB65003FF529 /* ObjectModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ObjectModel.xcdatamodel; sourceTree = "<group>"; };
+		D04810B41599CD72003FF529 /* StoreInitializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreInitializer.h; sourceTree = "<group>"; };
+		D04810B51599CD72003FF529 /* StoreInitializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreInitializer.m; sourceTree = "<group>"; };
+		D0919CCC18A833350079C091 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0481087159910AA003FF529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D048108F159910AA003FF529 /* UIKit.framework in Frameworks */,
+				D0481091159910AA003FF529 /* Foundation.framework in Frameworks */,
+				D0481093159910AA003FF529 /* CoreGraphics.framework in Frameworks */,
+				D04810A6159910B9003FF529 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36BE4B3518D65C0A00903608 /* Player Images */ = {
+			isa = PBXGroup;
+			children = (
+				36DDAD5318F638F70026B012 /* Wolfpack.gif */,
+				36E14D3918D932CA0030ACB9 /* JMcClement.jpg */,
+				36BE4B3F18D663B700903608 /* CFranson.jpg */,
+				36BE4B4018D663B700903608 /* DClarkson.jpg */,
+				36BE4B4118D663B700903608 /* JBernier.jpg */,
+				36BE4B4218D663B700903608 /* JGardiner.jpg */,
+				36BE4B4318D663B700903608 /* PKessel.jpg */,
+			);
+			name = "Player Images";
+			sourceTree = "<group>";
+		};
+		36BE4B4918D694B100903608 /* EquipmentCategory Images */ = {
+			isa = PBXGroup;
+			children = (
+				36E14D3B18D9333C0030ACB9 /* skateHolderCat.jpg */,
+				36E14D3C18D9333C0030ACB9 /* skateRunnerCat.jpg */,
+				36BE4B4A18D694CB00903608 /* glovesCat.jpg */,
+				36BE4B4B18D694CB00903608 /* helmetCat.jpg */,
+				36BE4B4C18D694CB00903608 /* skatesCat.jpg */,
+				36BE4B4D18D694CB00903608 /* sticksCat.jpg */,
+			);
+			name = "EquipmentCategory Images";
+			sourceTree = "<group>";
+		};
+		36DDAD4118F5B3740026B012 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				36EC260F18E3A3B6008E1315 /* AddPlayer.h */,
+				36EC261018E3A3B6008E1315 /* AddPlayer.m */,
+				D0304BE5161F40B000926A5E /* PlayerList.h */,
+				D0304BE6161F40B000926A5E /* PlayerList.m */,
+				D0304BE8161F40CA00926A5E /* PlayerView.h */,
+				D0304BE9161F40CA00926A5E /* PlayerView.m */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		36DDAD4218F5B3930026B012 /* Helmet */ = {
+			isa = PBXGroup;
+			children = (
+				36EC261518E3B2D7008E1315 /* HelmetView.h */,
+				36EC261618E3B2D7008E1315 /* HelmetView.m */,
+				369DEF5A18E66C680027500C /* HelmetList.h */,
+				369DEF5B18E66C680027500C /* HelmetList.m */,
+				36574DE318E7901B00EAE5C9 /* AddHelmet.h */,
+				36574DE418E7901B00EAE5C9 /* AddHelmet.m */,
+				368739B318E8EFAE00C7E2CE /* HelmetDetailNetworkView.h */,
+				368739B418E8EFAE00C7E2CE /* HelmetDetailNetworkView.m */,
+			);
+			name = Helmet;
+			sourceTree = "<group>";
+		};
+		36DDAD4318F5B3AE0026B012 /* Gloves */ = {
+			isa = PBXGroup;
+			children = (
+				B450201518F2E66400F8F803 /* GlovesList.h */,
+				B450201618F2E66400F8F803 /* GlovesList.m */,
+				B47F2F7B18F2FB41008B0CC6 /* GlovesView.h */,
+				B47F2F7C18F2FB41008B0CC6 /* GlovesView.m */,
+				368CD31B18F36C0500B508B3 /* AddGloves.h */,
+				368CD31C18F36C0500B508B3 /* AddGloves.m */,
+				368CD31E18F36D2F00B508B3 /* GlovesDetailNetworkView.h */,
+				368CD31F18F36D2F00B508B3 /* GlovesDetailNetworkView.m */,
+			);
+			name = Gloves;
+			sourceTree = "<group>";
+		};
+		36DDAD4518F5B4190026B012 /* Stick */ = {
+			isa = PBXGroup;
+			children = (
+				36CA94A018F4CA5500A379D2 /* StickList.h */,
+				36CA94A118F4CA5500A379D2 /* StickList.m */,
+				36CA94A318F4CA7300A379D2 /* StickView.h */,
+				36CA94A418F4CA7300A379D2 /* StickView.m */,
+				36CA94A618F4CAD400A379D2 /* AddStick.h */,
+				36CA94A718F4CAD400A379D2 /* AddStick.m */,
+				36CA94A918F4CAF400A379D2 /* StickDetailNetworkView.h */,
+				36CA94AA18F4CAF400A379D2 /* StickDetailNetworkView.m */,
+			);
+			name = Stick;
+			sourceTree = "<group>";
+		};
+		36DDAD5218F5B6D40026B012 /* Skates */ = {
+			isa = PBXGroup;
+			children = (
+				36DDAD4618F5B6790026B012 /* SkatesView.h */,
+				36DDAD4718F5B6790026B012 /* SkatesView.m */,
+				36DDAD4918F5B6950026B012 /* SkatesList.h */,
+				36DDAD4A18F5B6950026B012 /* SkatesList.m */,
+				36DDAD4C18F5B6A80026B012 /* AddSkates.h */,
+				36DDAD4D18F5B6A80026B012 /* AddSkates.m */,
+				36DDAD4F18F5B6CF0026B012 /* SkatesDetailNetworkView.h */,
+				36DDAD5018F5B6CF0026B012 /* SkatesDetailNetworkView.m */,
+			);
+			name = Skates;
+			sourceTree = "<group>";
+		};
+		D01A0A7518D3930F00A63315 /* Snippets */ = {
+			isa = PBXGroup;
+			children = (
+				D01A0A7618D3934600A63315 /* AddEditPattern.txt */,
+				D01A0A7818D3954E00A63315 /* EntityListForCollectionFromNetwork.txt */,
+			);
+			name = Snippets;
+			sourceTree = "<group>";
+		};
+		D048107F159910AA003FF529 = {
+			isa = PBXGroup;
+			children = (
+				D0919CCC18A833350079C091 /* README.md */,
+				D0481094159910AA003FF529 /* Classes */,
+				D048108D159910AA003FF529 /* Frameworks */,
+				D048108B159910AA003FF529 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D048108B159910AA003FF529 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D048108A159910AA003FF529 /* Equip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D048108D159910AA003FF529 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D048108E159910AA003FF529 /* UIKit.framework */,
+				D0481090159910AA003FF529 /* Foundation.framework */,
+				D0481092159910AA003FF529 /* CoreGraphics.framework */,
+				D04810A5159910B9003FF529 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0481094159910AA003FF529 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				36DDAD5218F5B6D40026B012 /* Skates */,
+				36DDAD4518F5B4190026B012 /* Stick */,
+				36DDAD4318F5B3AE0026B012 /* Gloves */,
+				36DDAD4218F5B3930026B012 /* Helmet */,
+				36DDAD4118F5B3740026B012 /* Player */,
+				36BE4B4918D694B100903608 /* EquipmentCategory Images */,
+				36BE4B3518D65C0A00903608 /* Player Images */,
+				D01A0A7518D3930F00A63315 /* Snippets */,
+				D048109D159910AA003FF529 /* AppDelegate.h */,
+				D048109E159910AA003FF529 /* AppDelegate.m */,
+				D0481095159910AA003FF529 /* Supporting Files */,
+				D0919CCB18A832B20079C091 /* Persistence */,
+				361CD0DF18D622AD00EC2365 /* Login.h */,
+				361CD0E018D622AD00EC2365 /* Login.m */,
+				36BE4B5218D6980600903608 /* EquipmentCategoryList.h */,
+				36BE4B5318D6980600903608 /* EquipmentCategoryList.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D0481095159910AA003FF529 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D04033541801FA5100A00C9D /* Default-568h@2x.png */,
+				D04033551801FA5100A00C9D /* Default.png */,
+				D04033561801FA5100A00C9D /* Default@2x.png */,
+				D0481096159910AA003FF529 /* Equip-Info.plist */,
+				D0481097159910AA003FF529 /* InfoPlist.strings */,
+				D048109A159910AA003FF529 /* main.m */,
+				D048109C159910AA003FF529 /* Equip-Prefix.pch */,
+				D04810A915991168003FF529 /* Main.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0919CCB18A832B20079C091 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				361CD0DC18D621FC00EC2365 /* Stick.h */,
+				361CD0DD18D621FC00EC2365 /* Stick.m */,
+				361CD0D918D621FC00EC2365 /* Gloves.h */,
+				361CD0DA18D621FC00EC2365 /* Gloves.m */,
+				361CD0D618D621FC00EC2365 /* SkateRunner.h */,
+				361CD0D718D621FC00EC2365 /* SkateRunner.m */,
+				361CD0D318D621FC00EC2365 /* Helmet.h */,
+				361CD0D418D621FC00EC2365 /* Helmet.m */,
+				361CD0D018D621FC00EC2365 /* Team.h */,
+				361CD0D118D621FC00EC2365 /* Team.m */,
+				361CD0CD18D621FC00EC2365 /* Player.h */,
+				361CD0CE18D621FC00EC2365 /* Player.m */,
+				361CD0CA18D621FC00EC2365 /* SkateBoot.h */,
+				361CD0CB18D621FC00EC2365 /* SkateBoot.m */,
+				361CD0C718D621FC00EC2365 /* EquipmentCategory.h */,
+				361CD0C818D621FC00EC2365 /* EquipmentCategory.m */,
+				361CD0C418D621FC00EC2365 /* Equipment.h */,
+				361CD0C518D621FC00EC2365 /* Equipment.m */,
+				361CD0C118D621FB00EC2365 /* SkateHolder.h */,
+				361CD0C218D621FB00EC2365 /* SkateHolder.m */,
+				D0304BD9161F39EA00926A5E /* ImageToDataTransformer.h */,
+				D0304BDA161F39EA00926A5E /* ImageToDataTransformer.m */,
+				D04810B11599CB65003FF529 /* ObjectModel.xcdatamodeld */,
+				D04810AB1599CAE9003FF529 /* CDStack.h */,
+				D04810AC1599CAE9003FF529 /* CDStack.m */,
+				D04810AD1599CAE9003FF529 /* Model.h */,
+				D04810AE1599CAE9003FF529 /* Model.m */,
+				D04810B41599CD72003FF529 /* StoreInitializer.h */,
+				D04810B51599CD72003FF529 /* StoreInitializer.m */,
+				D01A0A7318D38B5800A63315 /* WebServiceRequest.h */,
+				D01A0A7218D38B5800A63315 /* WebServiceRequest.m */,
+				36BE4B3C18D65F9400903608 /* UIImageResize.h */,
+				36BE4B3D18D65F9400903608 /* UIImageResize.m */,
+			);
+			name = Persistence;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0481089159910AA003FF529 /* Equip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D04810A2159910AA003FF529 /* Build configuration list for PBXNativeTarget "Equip" */;
+			buildPhases = (
+				D0481086159910AA003FF529 /* Sources */,
+				D0481087159910AA003FF529 /* Frameworks */,
+				D0481088159910AA003FF529 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Equip;
+			productName = Classes;
+			productReference = D048108A159910AA003FF529 /* Equip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0481081159910AA003FF529 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Seneca College";
+			};
+			buildConfigurationList = D0481084159910AA003FF529 /* Build configuration list for PBXProject "Equip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D048107F159910AA003FF529;
+			productRefGroup = D048108B159910AA003FF529 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0481089159910AA003FF529 /* Equip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0481088159910AA003FF529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0481099159910AA003FF529 /* InfoPlist.strings in Resources */,
+				36E14D3A18D932CA0030ACB9 /* JMcClement.jpg in Resources */,
+				D04810AA15991168003FF529 /* Main.storyboard in Resources */,
+				D0919CCD18A833350079C091 /* README.md in Resources */,
+				36DDAD5418F638F70026B012 /* Wolfpack.gif in Resources */,
+				D04033571801FA5100A00C9D /* Default-568h@2x.png in Resources */,
+				36BE4B4E18D694CB00903608 /* glovesCat.jpg in Resources */,
+				D04033581801FA5100A00C9D /* Default.png in Resources */,
+				36E14D3E18D9333C0030ACB9 /* skateRunnerCat.jpg in Resources */,
+				D01A0A7718D3934600A63315 /* AddEditPattern.txt in Resources */,
+				36BE4B4718D663B700903608 /* JGardiner.jpg in Resources */,
+				36BE4B4F18D694CB00903608 /* helmetCat.jpg in Resources */,
+				D01A0A7918D3954E00A63315 /* EntityListForCollectionFromNetwork.txt in Resources */,
+				D04033591801FA5100A00C9D /* Default@2x.png in Resources */,
+				36BE4B5118D694CB00903608 /* sticksCat.jpg in Resources */,
+				36BE4B4618D663B700903608 /* JBernier.jpg in Resources */,
+				36BE4B4818D663B700903608 /* PKessel.jpg in Resources */,
+				36BE4B4418D663B700903608 /* CFranson.jpg in Resources */,
+				36BE4B4518D663B700903608 /* DClarkson.jpg in Resources */,
+				36E14D3D18D9333C0030ACB9 /* skateHolderCat.jpg in Resources */,
+				36BE4B5018D694CB00903608 /* skatesCat.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0481086159910AA003FF529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361CD0DE18D621FC00EC2365 /* Stick.m in Sources */,
+				36CA94AB18F4CAF400A379D2 /* StickDetailNetworkView.m in Sources */,
+				36BE4B3E18D65F9400903608 /* UIImageResize.m in Sources */,
+				369DEF5C18E66C680027500C /* HelmetList.m in Sources */,
+				368CD31D18F36C0500B508B3 /* AddGloves.m in Sources */,
+				D048109B159910AA003FF529 /* main.m in Sources */,
+				36DDAD4B18F5B6950026B012 /* SkatesList.m in Sources */,
+				36BE4B5418D6980600903608 /* EquipmentCategoryList.m in Sources */,
+				D048109F159910AA003FF529 /* AppDelegate.m in Sources */,
+				361CD0E118D622AD00EC2365 /* Login.m in Sources */,
+				361CD0DB18D621FC00EC2365 /* Gloves.m in Sources */,
+				B47F2F7D18F2FB41008B0CC6 /* GlovesView.m in Sources */,
+				36CA94A218F4CA5500A379D2 /* StickList.m in Sources */,
+				D04810AF1599CAE9003FF529 /* CDStack.m in Sources */,
+				361CD0C918D621FC00EC2365 /* EquipmentCategory.m in Sources */,
+				361CD0CF18D621FC00EC2365 /* Player.m in Sources */,
+				D04810B01599CAE9003FF529 /* Model.m in Sources */,
+				B450201718F2E66400F8F803 /* GlovesList.m in Sources */,
+				36DDAD4818F5B6790026B012 /* SkatesView.m in Sources */,
+				361CD0D818D621FC00EC2365 /* SkateRunner.m in Sources */,
+				D04810B31599CB65003FF529 /* ObjectModel.xcdatamodeld in Sources */,
+				361CD0CC18D621FC00EC2365 /* SkateBoot.m in Sources */,
+				361CD0D218D621FC00EC2365 /* Team.m in Sources */,
+				36DDAD5118F5B6CF0026B012 /* SkatesDetailNetworkView.m in Sources */,
+				36DDAD4E18F5B6A80026B012 /* AddSkates.m in Sources */,
+				36EC261718E3B2D7008E1315 /* HelmetView.m in Sources */,
+				36574DE518E7901B00EAE5C9 /* AddHelmet.m in Sources */,
+				D04810B61599CD72003FF529 /* StoreInitializer.m in Sources */,
+				361CD0C618D621FC00EC2365 /* Equipment.m in Sources */,
+				D01A0A7418D38B5800A63315 /* WebServiceRequest.m in Sources */,
+				D0304BDB161F39EA00926A5E /* ImageToDataTransformer.m in Sources */,
+				D0304BE7161F40B000926A5E /* PlayerList.m in Sources */,
+				36EC261118E3A3B6008E1315 /* AddPlayer.m in Sources */,
+				D0304BEA161F40CA00926A5E /* PlayerView.m in Sources */,
+				36CA94A818F4CAD400A379D2 /* AddStick.m in Sources */,
+				368CD32018F36D2F00B508B3 /* GlovesDetailNetworkView.m in Sources */,
+				361CD0C318D621FB00EC2365 /* SkateHolder.m in Sources */,
+				361CD0D518D621FC00EC2365 /* Helmet.m in Sources */,
+				368739B518E8EFAE00C7E2CE /* HelmetDetailNetworkView.m in Sources */,
+				36CA94A518F4CA7300A379D2 /* StickView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0481097159910AA003FF529 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0481098159910AA003FF529 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D04810A0159910AA003FF529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D04810A1159910AA003FF529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D04810A3159910AA003FF529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Classes/Equip-Prefix.pch";
+				INFOPLIST_FILE = "Classes/Equip-Info.plist";
+				PRODUCT_NAME = Equip;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D04810A4159910AA003FF529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Classes/Equip-Prefix.pch";
+				INFOPLIST_FILE = "Classes/Equip-Info.plist";
+				PRODUCT_NAME = Equip;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0481084159910AA003FF529 /* Build configuration list for PBXProject "Equip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04810A0159910AA003FF529 /* Debug */,
+				D04810A1159910AA003FF529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D04810A2159910AA003FF529 /* Build configuration list for PBXNativeTarget "Equip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04810A3159910AA003FF529 /* Debug */,
+				D04810A4159910AA003FF529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D04810B11599CB65003FF529 /* ObjectModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D04810B21599CB65003FF529 /* ObjectModel.xcdatamodel */,
+			);
+			currentVersion = D04810B21599CB65003FF529 /* ObjectModel.xcdatamodel */;
+			path = ObjectModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D0481081159910AA003FF529 /* Project object */;
+}
